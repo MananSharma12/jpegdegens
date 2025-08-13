@@ -36,3 +36,16 @@ npx hardhat node
 ```bash
 npx hardhat run scripts/<deploy_script> --network localhost
 ```
+
+## Step 5 - Bundling the App
+- Create html page in root directory and add the script in src folder
+- Install vite
+```bash
+npm i -D vite
+```
+- Configure Vite in `vite.config.ts`
+```typescript
+import { defineConfig } from 'vite';
+
+export default defineConfig({});
+```
