@@ -5,7 +5,12 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+    "moduleResolution": "Bundler",
+    "isolatedModules": true,
+    "lib": ["ESNext", "DOM"],
+    "types": ["vite/client"],
     "skipLibCheck": true,
     "resolveJsonModule": true
-  }
+  },
+  "include": ["src"]
 }
